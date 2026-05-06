@@ -9,7 +9,7 @@ export function split(str, separator) {
   let current = '';
   let j = 0;
   for (let i = 0; i < str.length; i++) {
-    if (!separator) {
+    if (!separator) {`
       result[j++] = str[i];
     } else if (str[i] === separator) {
       result[j++] = current;
